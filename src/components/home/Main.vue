@@ -1,6 +1,6 @@
 <template>
     <div class="home_main">
-        <h3>URL Shortener</h3>
+        <h1>URL Shortener</h1>
         <input type="text" v-model="url" placeholder="input url..">
         <button @click="onClickShortener">submit</button>
 

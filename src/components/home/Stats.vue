@@ -1,6 +1,6 @@
 <template>
     <div class="home_stats">
-        <h3>URL Stats</h3>
+        <h1>URL Stats</h1>
         <ul v-if="stats">
             <li v-for="(item, index) in stats" :key="index">
                 <div>시간대 : {{item.at}}</div>
